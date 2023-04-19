@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
@@ -24,7 +23,7 @@
       margin: 0;
     }
 
-    section {
+    main {
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -46,9 +45,11 @@
     }
 
     img {
+      position: relative;
       width: 288px;
       height: 288px;
       border-radius: 10px;
+      margin-bottom: 10px;
     }
 
     .card-content {
@@ -60,25 +61,21 @@
       font-size: 22px;
       font-weight: 700;
       color: #1F314F;
+      line-height: 27.72px;
     }
 
     p {
       text-align: center;
       line-height: 18.9px;
       font-weight: 400;
+      font-size: 15px;
       color: #7D889E;
     }
 
-    .attribution { 
-      font-size: 11px; 
-      text-align: center; 
-      margin-top: 18px;
-    }
-    .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
-    <section>
+    <main>
       <div class="card">
         <img src="./images/image-qr-code.png" alt="">
         <div class="card-content">
@@ -86,15 +83,6 @@
           <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
         </div>
       </div>
-      <div class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Coded by <a href="https://www.frontendmentor.io/profile/gregsburador">Gregoryo</a>.
-      </div>
-    </section>
-   
-  <footer>
-   
-  </footer>
- 
+    </main> 
 </body>
 </html>
